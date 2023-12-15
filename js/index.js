@@ -14,25 +14,33 @@ xmlhttp.onreadystatechange = function () {
             let geojson = JSON.parse(xmlhttp.responseText);
             let geojsonlayer = L.geoJSON(geojson, {
                 style: {
-                    "color": "blue",
+                    "color": "red", // Changement de la couleur de base en rouge
                     "opacity": 1,
-                    "fillColor": "blue",
+                    "fillColor": "red", // Changement de la couleur de base en rouge
                     "fillOpacity": 0.2
                 },
-                onEachFeature: function(feature, layer){
+                onEachFeature: function(feature, layer) {
                     layer.bindPopup(feature.properties.name);
-                    layer.on('mouseover', function(e){
-                        this.openPopup()
-                    })
-
+                    this.openPopup();
+                    layer.on('mouseover', function(e) {
+                        this.setStyle({
+                            fillColor: 'yellow',
+                            color: 'yellow'
+                        });
+                    });
+                    layer.on('mouseout', function(e) {
+                        geojsonlayer.resetStyle(this);
+                    });
                 }
-            }).addTo(map)
+            }).addTo(map);
+            
             
         }else{
             console.log(xmlhttp.statusText);
         }
     }
 }
+
 
 xmlhttp.open("GET", "json/CommunesBasseTerre.geojson", true);
 xmlhttp.send(null);

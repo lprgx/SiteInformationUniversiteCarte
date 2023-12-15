@@ -1,0 +1,5 @@
+const{
+  "universite": "Université Paris 1 Panthéon-Sorbonne",
+  "adresse": "12, place du Panthéon, 75231 Paris cedex 05",
+  "telephone": "+33 (0) 1 44 07 80 00"
+}
