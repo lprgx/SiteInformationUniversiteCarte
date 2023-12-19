@@ -22,12 +22,7 @@ xmlhttp.onreadystatechange = function () {
                 onEachFeature: function(feature, layer) {
                     layer.bindPopup(feature.properties.name);
                     layer.on('mouseover', function(e) {
-                        this.openPopup();
-                        this.setStyle({
-                            fillColor: 'yellow',
-                            color: 'yellow'
-                        });
-                        
+                        this.openPopup();     
                     });
                 }
             }).addTo(map);
