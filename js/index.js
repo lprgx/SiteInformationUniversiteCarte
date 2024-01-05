@@ -34,7 +34,6 @@ xmlhttp.onreadystatechange = function () {
     }
 }
 
-
-xmlhttp.open("GET", "json/CommunesBasseTerre.geojson", true);
+xmlhttp.open("GET", "json/universite.geojson", true);
 xmlhttp.send(null);
 

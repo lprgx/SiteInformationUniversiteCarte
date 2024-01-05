@@ -2,8 +2,8 @@
 #head{
   position: relative;
   text-align: center;
-  background-color: #9ec2f4;
-  border-radius: 30px 30px 30px 30px;
+  background-color: #3498db;
+  border-radius: 8px; 
   max-width: 50%;
   justify-content: center;
   margin : 0 auto; 

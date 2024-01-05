@@ -1,0 +1,214 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.280445694,
+            48.841991556
+          ]
+        },
+        "properties": {
+          "name": "Université Paris 1 Panthéon-Sorbonne"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.33415,
+            48.84349
+          ]
+        },
+        "properties": {
+          "name": "Université Panthéon-Assas Paris 2"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.39678790539612,
+            48.84535316655248
+          ]
+        },
+        "properties": {
+          "name": "Université Sorbonne Nouvelle"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3409926851745992,
+            48.85064324924881
+          ]
+        },
+        "properties": {
+          "name": "Sorbonne Université"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.332274624347963,
+            48.85566355313051
+          ]
+        },
+        "properties": {
+          "name": "Université Paris Cité"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.337908148305,
+            48.85472753951745
+          ]
+        },
+        "properties": {
+          "name": "Université PSL (Paris Sciences & Lettres)"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.363320619560269,
+            48.9455079752474
+          ]
+        },
+        "properties": {
+          "name": "Université Paris 8"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.274252698668883,
+            48.870205385046866
+          ]
+        },
+        "properties": {
+          "name": "Université Paris Dauphine-PSL"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.2129260818814336,
+            48.90400619226117
+          ]
+        },
+        "properties": {
+          "name": "Université Paris Nanterre"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3538651391466026,
+            48.81190244678211
+          ]
+        },
+        "properties": {
+          "name": "Université Paris-Saclay"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.4441766103100497,
+            48.788300343911914
+          ]
+        },
+        "properties": {
+          "name": "Université Paris-Est Créteil Val de Marne"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.342222744698911,
+            48.95628646558713
+          ]
+        },
+        "properties": {
+          "name": "Université Sorbonne Paris Nord"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.5882998833255795,
+            48.842759107537205
+          ]
+        },
+        "properties": {
+          "name": "Université Gustave Eiffel"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.0391914307948524,
+            48.78088721714666
+          ]
+        },
+        "properties": {
+          "name": "Université de Versailles Saint-Quentin-en-Yvelines"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.4281379717746456,
+            48.624357768441634
+          ]
+        },
+        "properties": {
+          "name": "Université d’Evry-Val-d’Essonne"
+        }
+  },
+  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.0772608454074586,
+            49.04337393830048
+          ]
+        },
+        "properties": {
+          "name": "CY Cergy Paris Université"
+        }
+  }
+    ]
+  }
+  
